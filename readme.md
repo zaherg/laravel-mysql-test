@@ -6,7 +6,7 @@ This is just an example of how you can use GitHub Actions to test your laravel a
 
 You can think of the services as the docker images that you want to use with your project, like: MySQL, Redis .. etc.
 
-From GitHub Actions Docs:
+From GitHub Actions [Docs](https://help.github.com/en/articles/workflow-syntax-for-github-actions#jobsjob_idservices):
 
 > Additional containers to host services for a job in a workflow. These are useful for creating databases or cache 
 > services like redis. The runner on the virtual machine will automatically create a network and manage the life cycle 
